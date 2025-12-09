@@ -1,0 +1,70 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.tema-padrao {
+    background-color: #f4f4f4; 
+    color: #000;
+}
+
+.tema-padrao th, .tema-padrao td, .tema-padrao tr {
+    background-color: white;
+    border-color: #ccc;
+}
+.tema-preto {
+    background-color: #000000; 
+    color: #ffffff;
+}
+/*.tema-pretok th, .tema-dark td {
+    background-color: #333;
+    color: #f0f0f0;
+    border-color: #555;
+}*/
+.tema-colorido {
+    background-color: #f0e796; 
+    color: #844;
+}
+
+.formulario input {
+    padding: 10px;
+    margin: 5px;
+    display: block;
+    width: 20%;
+    margin-right: auto;
+    border: 1px solid black;
+    min-height: 0.3; 
+}
+
+.formulario button {
+    padding: 10px;
+    margin: 5px;
+    display: block;
+    width: 15%;
+    margin-right: auto;
+    border: 1px solid black;
+    background-color: beige;
+}
+
+.selector select {
+    padding: 1px;
+    margin: 5px;
+    display: block;
+    width: 30%;
+    margin-right: auto;
+    border: 1px solid black;
+    background-color: beige;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 19px;
+
+}
+
+tr, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid white;
+}
